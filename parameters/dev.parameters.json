@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "pAppServicePlan": {
+      "value": "docapp-01-d-asp"
+    },
+    "pASPSKU": {
+      "value": "F1"
+    },
+    "pASPKind": {
+      "value": "linux"
+    },
+    "pAppService": {
+      "value": "docapp-01-d-as"
+    },
+    "pLinuxFXVersion": {
+      "value": "JAVA|11-java11"
+    }
+  }
+}
